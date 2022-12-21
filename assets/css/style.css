@@ -6,3 +6,119 @@
     box-sizing: border-box;
 }
 
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #317C86;
+    height: 12.9cm;
+}
+
+header > .logo {
+    padding: 1em;
+    text-align: center;
+}
+.logo-img {
+    width: 12em;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+.header-title-span {
+    color: white;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 1.3em;
+}
+
+.header-title h1{
+    color: white;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+}
+
+.img-pq {
+    width: 459px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+/* header finished*/
+
+.container {
+    background-color: #C9EEE6;
+    position: relative;
+    height: 100vh;
+}
+
+.main-title {
+    color: #3b3b3b;
+    padding: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    width: 90%; 
+    margin: 0 auto;
+    border-bottom: 4px solid white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.content-left {
+    width: 600px;
+}
+.content-left p {
+    color: #3b3b3b;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding-top: 1.3em;
+    text-align: justify;
+}
+
+.content-left ul{
+    padding-top: 1.3em;
+    padding-left: 1.4em;
+}
+.content-left ul li {
+    font-size: 1.2em;
+}
+
+.black {
+    font-weight: bold;
+    color: black;
+}
+.included{
+    font-size: 1.3em;
+}
+
+/* content left finished*/
+
+.content-right {
+    width: 400px;
+}
+
+form legend {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
