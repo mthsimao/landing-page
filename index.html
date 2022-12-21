@@ -63,33 +63,41 @@
                                     <legend>Get it now</legend>
 
                                     <div>
-                                        <label for="iname">First Name<span class="required">*</span></label>
-                                        <input type="text" name="name" id="iname" required>
+                                        <label for="iname">First Name<span class="required">*</span></label> <br>
+                                        <input type="text" name="name" id="iname" required class="box-text" minlength="3" maxlength="22">
                                     </div>
 
                                     <div>
-                                        <label for="ilastname">Last Name<span class="required">*</span></label>
-                                        <input type="text" name="lastname" id="ilastname" required>
+                                        <label for="ilastname">Last Name<span class="required">*</span></label> <br>
+                                        <input type="text" name="lastname" id="ilastname" required class="box-text" minlength="3" maxlength="22">
                                     </div>
                                     
                                     <div>
-                                        <label for="iemail">Email<span class="required">*</span></label>
-                                        <input type="email" name="email" id="iemail" required>
+                                        <label for="iemail">Email<span class="required">*</span></label> <br>
+                                        <input type="email" name="email" id="iemail" required class="box-text">
                                     </div>
 
                                     <div>
-                                        <label for="icompany">Company name<span class="required">*</span></label>
-                                        <input type="text" name="company" id="icompany" required>
+                                        <label for="icompany">Company name<span class="required">*</span></label> <br>
+                                        <input type="text" name="company" id="icompany" required class="box-text">
                                     </div>
 
                                     <div>
-                                        <label for="iwebsite">Website<span class="required">*</span></label>
-                                        <input type="text" name="website" id="iwebsite" required>
+                                        <label for="iwebsite">Website<span class="required">*</span></label> <br>
+                                        <input type="text" name="website" id="iwebsite" required class="box-text">
                                     </div>
 
-                                    <div><input type="checkbox" name="impactblogs" id="iimpactblogs"><label for="iimpactblogs">Subscribe me to the IMPACT Blog (weekly)</label></div>
+                                    <div class="check">
+                                        <input type="checkbox" name="impactblogs" id="iimpactblogs">
+                                        <label for="iimpactblogs">Subscribe me to the IMPACT Blog (weekly)</label>
+                                    </div>
+                            
+                                    <div class="submit">
+                                        <input type="submit" value="GENERATE MORE CONVERSIONS!" class="submit">
+                                    </div>
                                     
-                                    <input type="submit" value="GENERATE MORE CONVERSIONS!" disabled>
+
+                                    
                                 </fieldset>
                             </form>
 

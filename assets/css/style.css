@@ -60,7 +60,7 @@ header > .logo {
 .container {
     background-color: #C9EEE6;
     position: relative;
-    height: 100vh;
+    padding: 2em;
 }
 
 .main-title {
@@ -77,9 +77,10 @@ header > .logo {
 .content {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-around;
+    margin-top: 1.6em;
 }
 
 .content-left {
@@ -89,7 +90,7 @@ header > .logo {
     color: #3b3b3b;
     font-size: 1.2em;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    padding-top: 1.3em;
+    padding-top: 2em;
     text-align: justify;
 }
 
@@ -112,13 +113,65 @@ header > .logo {
 /* content left finished*/
 
 .content-right {
-    width: 400px;
+    width: 450px;
 }
 
-form legend {
+.form legend {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
+    font-size: 1.2em;
 }
+
+form div {
+    padding: 1.3em;
+}
+
+.form label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #8d8d8d;
+}
+
+.required {
+    color: red;
+}
+
+.box-text{
+    width: 200px;
+    height: 35px;
+    font-size: 1em;
+    text-indent: 5px;
+}
+
+.check input{
+    width: 16px;
+    height: 16px;
+}
+
+.submit {
+    margin-bottom: 10px;
+}
+
+.submit input{
+    background-color: rgba(40, 102, 218, 0.925);
+    color: white;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 1em;
+    width: 420px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.295);
+}
+
+.submit input:hover {
+    background-color: #2053b3ec;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+    
+}
+
+/* finished project*/
 
