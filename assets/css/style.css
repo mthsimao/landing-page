@@ -59,7 +59,6 @@ header > .logo {
 
 .container {
     background-color: #C9EEE6;
-    position: relative;
     padding: 2em;
 }
 
@@ -84,7 +83,7 @@ header > .logo {
 }
 
 .content-left {
-    width: 600px;
+    width: 550px;
 }
 .content-left p {
     color: #3b3b3b;
@@ -113,7 +112,7 @@ header > .logo {
 /* content left finished*/
 
 .content-right {
-    width: 450px;
+    max-width: 450px;
 }
 
 .form legend {
@@ -139,7 +138,7 @@ form div {
 }
 
 .box-text{
-    width: 200px;
+    width: 220px;
     height: 35px;
     font-size: 1em;
     text-indent: 5px;
@@ -163,7 +162,7 @@ form div {
     width: 420px;
     border: none;
     border-radius: 50px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.295);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.212);
 }
 
 .submit input:hover {
@@ -174,4 +173,3 @@ form div {
 }
 
 /* finished project*/
-
