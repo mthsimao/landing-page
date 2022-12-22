@@ -169,7 +169,11 @@ form div {
     background-color: #2053b3ec;
     cursor: pointer;
     transition: .4s all ease-in-out;
-    
+}
+
+.submit input:active {
+    background-color: #183d81ec;
+    transition: all 0s;
 }
 
 /* finished project*/
