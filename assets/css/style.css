@@ -163,17 +163,17 @@ form div {
     border: none;
     border-radius: 50px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.212);
+    transition: .4s all ease-in-out;
 }
 
 .submit input:hover {
     background-color: #2053b3ec;
     cursor: pointer;
-    transition: .4s all ease-in-out;
+    
 }
 
 .submit input:active {
     background-color: #183d81ec;
-    transition: all 0s;
 }
 
 /* finished project*/
